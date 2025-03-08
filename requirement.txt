@@ -1,0 +1,10 @@
+spacy
+selenium
+httpx==0.27.2
+openai==1.7.0
+openpyxl
+np
+transformers
+accelerate
+emoji
+tenacity

@@ -74,7 +74,7 @@ To use DeepSeek-R1:
 cd code
 
 python main
-    -e <name of the dataset file in the dataset_2022 directory, default as benchmark_stable_.xlsx> 
+    -e <name of the dataset file in the dataset directory, default as benchmark_stable.xlsx> 
     -l <path to save communication logs, default as ../output/elevate_GPT4_10min/> 
     -o <path to save problems, default as ../output/elevate_GPT4_10min/result> 
     -m <selected LLM, default as GPT-4. Options: GPT-4, Deepseek>

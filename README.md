@@ -68,12 +68,12 @@ To use DeepSeek-R1:
 3. an **Azure account** that has access to the openAI API (change the config000.ini in config directory to add the apibase and apiversion), or a **DeepSeek account** that has access to the DeepSeek API.
 4. We need to login to the amazon developer account to start using the simulator. In most of the cases amazon will send an email to your linked email address for verifications. We use pop to read the emails, so make sure the **110 port** is open.
 
-## How to run Elevate
+## How to run Elevate (source code)
 
 ```
 cd code
 
-main.exe
+python main
     -e <name of the dataset file in the dataset_2022 directory, default as benchmark_stable_.xlsx> 
     -l <path to save communication logs, default as ../output/elevate_GPT4_10min/> 
     -o <path to save problems, default as ../output/elevate_GPT4_10min/result> 

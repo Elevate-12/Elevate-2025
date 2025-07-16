@@ -33,7 +33,6 @@ DEPLOYMENT_NAME = "llama2-7b-deployment"
 def set_up_pre():
     try:
         credential = DefaultAzureCredential()
-        # credential = ClientSecretCredential("1bdb7bb8-82ad-4b79-bad5-22899ae910db", "7b285d5a-6fe2-41dd-b4ff-e49401f16e92", "Wxf8Q~am7AHD7diBFKcwzftLIhmJFGqKJp4.lb~o")
         credential.get_token("https://management.azure.com/.default")
     except Exception as ex:
         credential = InteractiveBrowserCredential()
